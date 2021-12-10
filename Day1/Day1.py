@@ -1,6 +1,6 @@
 def main():
     count = 0
-    with open('numbers.txt') as numberfile:
+    with open('Day1\numbers.txt') as numberfile:
         lines = numberfile.readlines()
         for i,n in enumerate(lines):
             lines[i] = int(n.strip())
